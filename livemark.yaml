@@ -1,5 +1,6 @@
 brand:
   text: GeoData Training
+  logo: assets/logo.svg
 about:
   text: This training guide for trainers of the OKF x Facebook GeoData Training Programme
 github:
