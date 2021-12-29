@@ -1173,6 +1173,124 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <style>
 
 /* Put your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#livemark-brand{
+    color: #009AD6 !important;
+    font-weight: 400 !important;
+}
+
+
+
+h1{
+    color: #009AD6 !important;
+    font-weight: 300 !important;  
+}
+h3{
+    color: #009AD6 !important;
+    font-weight: 300 !important;
+}
+
+#objectives a{
+    font-weight: 300 !important; 
+}
+
+#livemark-main h2:hover .livemark-source-button{
+    color: #8B9298 !important;
+    font-weight: 300 !important; 
+}
+
+
+a {
+    display: inline-block;
+    position: relative;
+    color: #00aae1 ;
+    text-decoration: none !important;
+    width: auto !important;
+}
+
+#livemark-search-output a{
+    color: #32DDC6 !important;
+}
+
+
+#livemark-main a{
+    color: #7FCFFF !important;
+}
+.livemark-search-found{
+    background-color: #32DDC6 !important;
+}
+
+#livemark-search-input{
+    border-radius: 5px !important;
+    font-size: 1em !important;
+}
+
+p{
+    color: #41484D !important;
+}
+
+ul.toc-list{
+    font-size: 0.7em !important;
+}
+
+li.active{
+    color: #00aae1  !important; 
+    font-weight: 400 !important; 
+}
+
+table tr:first-child td {
+    color: #00aae1  !important; 
+}
+
+#livemark-brand a.active{
+    color: #00aae1  !important; 
+}
+
+#livemark-main h2{
+    color: #00aae1  !important; 
+    font-weight: 400 !important
+}
+
+#livemark-brand li{
+    height: 5em !important;
+}
+
+#livemark-brand a{
+    background-image: url(../assets/logo.svg);
+    background-repeat: no-repeat !important;
+    background-size: unset !important;
+    padding-top: 35% !important;
+}
+
+@media only screen and (max-width: 800px) {
+    #livemark-brand a{
+        padding-top: 20% !important;
+    }
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 </style>
 <style>
@@ -1843,7 +1961,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-main">
 <div id="livemark-notes">
   Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2021-12-14 11:41)
+  (2021-12-28 11:12)
 </div>
 
 <h1>Before the live training</h1>
